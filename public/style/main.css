@@ -1,0 +1,109 @@
+html {
+  color: #eee;
+  font-size: 1em;
+  height: 100%;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  background-image: url('/image/flatiron-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  margin: 0 5%;
+  position: relative;
+  width: 90%;
+}
+
+.wrapper {
+  bottom: 5px;
+  position: absolute;
+}
+
+.title {
+  color: #999;
+  font-family: Cambria, Georgia, 'New Century Schoolbook', 'Century Schoolbook L', 'Times New Roman', serif;
+  font-weight: normal;
+  margin: .5em 0 0;
+}
+
+p {
+  margin: 0 0 .5em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  padding: 7px 0;
+  margin: 0 0 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+  background: #a6b1bd;
+}
+
+a:hover,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 480px) {
+
+  a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 15px 5px;
+    margin-bottom: 5px;
+  }
+
+  ul li {
+    display: inline;
+  }
+
+  a {
+    margin: 0 0.7%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .wrapper {
+    bottom: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+}
